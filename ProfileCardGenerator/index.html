@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+    #grandparent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+    #parent{
+        height: 400px;
+        width: 500px;
+        background-color: #f2efef;
+        border-radius: 5px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    #image{
+        height: 240px;
+        width: 240px;
+        border-radius: 50%;
+        margin: 0 auto;
+        /* flex-direction: column; */
+        /* display: inline; */
+        /* justify-items: justify;
+        text-align: center; */
+        display: block;
+        object-fit: cover;
+        text-align: center;   
+        }
+    #name{
+        margin-top: 12px;
+        text-align: center;
+        font-size: 23px;
+        font-weight: bold;
+    
+    }
+    #info{
+        font-size: large;
+        font-weight: lighter;
+        word-wrap: normal;
+        
+        overflow-wrap: break-word;  /* preferred modern name */
+         word-wrap: break-word;      /* older name, still widely supported */
+
+    }
+    #btn{
+        height: 42px;
+        width: 300px;
+        margin-top: 10px;
+        background: green;
+        /* border-color: none; */
+        cursor: pointer;
+        border-radius: 5px;
+        color: #f2efef;
+        border: none;
+
+    }
+    #btn:hover {
+  background-color: #025a06;  /* darker on hover */
+  transform: scale(1.05);     /* slightly grow */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* shadow effect */
+}
+/* #grandparent{
+    text-align: center;
+    
+} */
+</style>
+<body>
+
+    <div id="grandparent">
+        <div id="parent">
+        <div>
+            <img id="image" src="https://cdn.pixabay.com/photo/2022/10/19/01/02/woman-7531315_1280.png" alt="profile photo">
+        </div>
+        <div id="name">John Deo</div>
+        <div id="info">
+            <p>I’m a passionate and detail-oriented web developer with hands-on experience in building responsive and user-friendly websites and web applications. </p>
+        </div>
+    </div>
+     <button id="btn">Generate Profile Card</button>
+    </div>
+   
+</body>
+</html>

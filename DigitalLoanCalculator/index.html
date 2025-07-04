@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Digital Loan Calculator</title>
+</head>
+<body>
+  <div id="parent">
+    <section id="heading">Smart Loan Calcualtor</section>
+    <div id="partition">
+         <div id="left">
+          <label id="label">Loan Amount ($)</label>
+          <input type="number" placeholder="e.g., 250000" id="numberInput1">
+          <label id="label">Annual Interest Rate($)</label>
+          <input type="number" placeholder="e.g., 2" id="numberInput2">
+          <label id="label">Loan Terms (Years)</label>
+          <input type="number" placeholder="e.g., 5" id="numberInput3">
+          <button id="btn">Calculate Loan -></button>
+         </div>
+         <div id="right">
+          <h1 >Loan Summary</h1>
+           <p>Monthly Payment</p>
+          <div id="monthlyPayment">
+            <!-- <p>Monthly Payment</p> -->
+            <h1>$0.00</h1>
+          </div>
+          <p>Total payment</p>
+           <div id="TotalPayment">
+            <!-- <p>Total payment</p> -->
+            <h1>$0.00</h1>
+          </div>
+           <p>Total Interest</p>
+           <div id="TotalInterest">
+            <!-- <p>Total Interest</p> -->
+            <h1>$0.00</h1>
+          </div>
+          
+         </div>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

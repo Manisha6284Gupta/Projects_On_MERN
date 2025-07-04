@@ -1,0 +1,114 @@
+body{
+    background-color:black;
+    display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 100vh;       
+}
+#parent{
+    background-color:#b7b6b8;
+    height:600px;
+    width:700px;
+    border-radius:10px;
+     /* display: flex; */
+    /* justify-content: center; /* horizontal */
+    /* align-items: center;     /* vertical */
+    
+    /* text-align:center;
+    justity-item:center; */
+}
+#heading{
+    background-color:#3c3b3d;
+     height:100px;
+    width:full;
+    font-size:40px;
+    justity-item:center;
+    text-align:center;
+    font-color:light
+    /* border-radius:10px; */
+}
+/* #left{
+
+} */
+
+#partition{
+    /* flex-direction:column; */
+    display:flex;
+    /* background-color:yellow; */
+}
+#left{
+    /* background-color:green; */
+     flex-direction:row;
+     width:50%;
+     height:600px
+}
+#label{
+    text-color:bold;
+    margin-left:10px;
+    margin-top:10px;
+}
+#numberInput1{
+    height:34px;
+    width:300px;
+    margin-top:10px;
+     margin-left:10px;
+    border-radius:5px;
+    border:none
+}
+#numberInput2{
+    height:34px;
+    width:300px;
+    margin-top:10px;
+     margin-left:10px;
+    border-radius:5px;
+    border:none
+}
+#numberInput3{
+    height:34px;
+    width:300px;
+    margin-top:10px;
+     margin-left:10px;
+    border-radius:5px;
+    border:none
+}
+#btn{
+    height:46px;
+    width:300px;
+    border:none;
+    border-radius:5px;
+    margin-top:60px;
+    margin-left:10px;
+    background:#3c3b3d;
+    font-size:23px;
+    /* text-color:white */
+}
+#btn:hover{
+    background-color:black;
+    color:white
+}
+#monthlyPayment{
+     background-color:white;
+     height:79px;
+     width:330px;
+     border-radius:5px;
+     margin-left:5px;
+}
+#TotalPayment{
+     background-color:white;
+     height:79px;
+     width:330px;
+     border-radius:5px;
+     margin-left:5px;
+}
+#TotalInterest{
+     background-color:white;
+     height:79px;
+     width:330px;
+     border-radius:5px;
+     margin-left:5px;
+}
+#right{
+    /* text-align:center;
+    justity-item:center */
+    margin-left:5px
+}
