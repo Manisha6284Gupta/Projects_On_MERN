@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventStopPropagation</title>
+    <style>
+        body{
+             height: 100vh;
+             margin: 0px;
+            
+            display: flex;
+           
+            text-align: center;
+            justify-content: center;
+        }
+        #gradparent{
+            height: 300px;
+            width: 300px;
+            color: black;
+            background-color: green;
+            display: flex;
+           text-align: center;
+           justify-content: center;
+           margin: auto;
+           border-radius: 5px;
+            
+        }
+        #parent{
+             height: 200px;
+            width: 200px;
+            color: black;
+            background-color: rgb(80, 143, 80);
+             display: flex;
+           text-align: center;
+           justify-content: center;
+           margin: auto;
+           border-radius: 5px;
+        }
+        #child{
+             height: 100px;
+            width: 100px;
+            color: black;
+            background-color: rgb(183, 228, 183);
+             display: flex;
+           text-align: center;
+           justify-content: center;
+           margin: auto;
+           border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="gradparent">
+        Outerdiv
+        <div id="parent">
+            Innerdiv
+            <div id="child">
+                most innerdiv
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
